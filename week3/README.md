@@ -28,15 +28,15 @@ If they can go on **K** road trips, output a single line containing a single int
 ## Constraints
 
 
-* 1 <= **T** <= 3
-* 1 <= **N** <= 10^6
-* 0 <= **M** <= 10^6
-* 1 <= **K** <= 10^6
-* 1 <= u*i*, v*i* <= N
+* 1 ≤ **T** ≤ 3
+* 1 ≤ **N** ≤ 10^6
+* 0 ≤ **M** ≤ 10^6
+* 1 ≤ **K** ≤ 10^6
+* 1 ≤ u*i*, v*i* ≤ N
 * There is no road which goes from one city to itself. ie. u*i* != v*i*.
 * There is at most one direct road between a pair of cities.
-* 0 <= Number of museums in each city <= 1000
-* Sum of **N** over all testcases in a file will be <= 1.5 * 10^6
+* 0 ≤ Number of museums in each city ≤ 1000
+* Sum of **N** over all testcases in a file will be ≤ 1.5 * 10^6
 
 
 ### Sample input 1

@@ -7,7 +7,7 @@ There are **C** cakes in a row, numbered from **1** to **C**. There are **N** ch
 
 You will be given an integer **K** which will be either 0 or 1. If **K** is 0, then you should find out if some two children will fight. Print "Good" if no one fights, and "Bad" if someone fights.
 
-If **K** is 1, then you can persuade at most one child to change his decision to some other set of cakes. But the number of cakes that he eats must be the same. That is, if Child *i* had initially decided that he wants to eat the cakes from **Si** to **Ei**, then you could persuade the child to instead eat the cakes from **X** to **Y** instead, for any valid **X** and **Y** (ie. 1 <= **X** <= **Y** <= **C**), provided that the number of cakes is the same (ie. *Ei* - *Si* + 1 = **Y** - **X** + 1). If after persuading at most 1 Child to change his decision, no fights happen, then print "Good". But if no matter what you do, someone will fight, then print "Bad".
+If **K** is 1, then you can persuade at most one child to change his decision to some other set of cakes. But the number of cakes that he eats must be the same. That is, if Child *i* had initially decided that he wants to eat the cakes from **Si** to **Ei**, then you could persuade the child to instead eat the cakes from **X** to **Y** instead, for any valid **X** and **Y** (ie. 1 ≤ **X** ≤ **Y** ≤ **C**), provided that the number of cakes is the same (ie. *Ei* - *Si* + 1 = **Y** - **X** + 1). If after persuading at most 1 Child to change his decision, no fights happen, then print "Good". But if no matter what you do, someone will fight, then print "Bad".
 
 ## Solution hint
 
@@ -25,41 +25,41 @@ For each test case, output a single line containing "Good" or "Bad".
 
 ## Constraints
 
-* 1 <= **T** <= 10
-* 1 <= **C** <= 10^9
-* 1 <= **N** <= 10^5
-* 0 <= **K** <= 1
-* 1 <= *Si*, *Ei* <= **C**
+* 1 ≤ **T** ≤ 10
+* 1 ≤ **C** ≤ 10^9
+* 1 ≤ **N** ≤ 105
+* 0 ≤ **K** ≤ 1
+* 1 ≤ *Si*, *Ei* ≤ **C**
 
 ### Sample input 1
 
-5 2 0
-2 2
-3 5
+ 5 2 0
+ 2 2
+ 3 5
 
 ### Sample output 1
 
-Good
+ Good
 
 ### Sample input 2
 
-5 2 1
-2 2
-2 5
+ 5 2 1
+ 2 2
+ 2 5
 
 ### Sample output 2
 
-Good
+ Good
 
 ### Sample input 3
 
-5 2 1
-2 3
-2 5
+ 5 2 1
+ 2 3
+ 2 5
 
 ### Sample output 3
 
-Bad
+ Bad
 
 ## Explanation
 

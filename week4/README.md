@@ -22,7 +22,7 @@ such that
 
 * A0 = A
 * Ak = B
-* For each i, 0 <= i < k, either the triple Ai Wi Ai+1 or the triple Ai+1 Wi Ai is in the given set of triples.
+* For each i, 0 ≤ i < k, either the triple Ai Wi Ai+1 or the triple Ai+1 Wi Ai is in the given set of triples.
 
 The value of such a chain is the sum of the Wis in the chain. For example, here is a chain connecting 1 and 11 using the triples listed above:
 
