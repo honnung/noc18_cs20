@@ -2,17 +2,17 @@
 
 *(IARCS OPC Archive, K Narayan Kumar, CMI)*
 
- In this problem you will be given a sequence of triples of positive integers. For example:
+In this problem you will be given a sequence of triples of positive integers. For example:
 
- 1  2   5
- 5  2   6
- 1  3   8
- 8  1  11
- 1  1   6
-10  1   6
-11  3   6
-10  4   8
-10  1  11
+   1  2   5
+   5  2   6
+   1  3   8
+   8  1  11
+   1  1   6
+  10  1   6
+  11  3   6
+  10  4   8
+  10  1  11
 
 Given a pair of numbers **A** and **B**, a chain connecting **A** and **B** is a sequence of triples 
 
@@ -26,13 +26,13 @@ such that
 
 The value of such a chain is the sum of the Wis in the chain. For example, here is a chain connecting 1 and 11 using the triples listed above:
 
-   1  1  6,  6  3  11
+>   1  1  6,  6  3  11
 
 The value of this chain is 1+3 = 4.
 
 Here is another chain connecting 1 and 11.
 
-   1  1  6,  6  1  10,  10  1  11
+>   1  1  6,  6  1  10,  10  1  11
 
 The value of this chain is 1+1+1 = 3. You can verify that among all chains connecting 1 and 11 this is the one with least value.
 
@@ -54,39 +54,39 @@ If there is at least one chain connecting A and B the first line of the output m
 
 ## Test Data
 
-You may assume that 1 = Xi, Yi, Zi = 2000 and M = 4000000.
+You may assume that 1 = *Xi*, *Yi*, *Zi* = 2000 and M = 4000000.
 
 ### Sample input 1
 
-9 1 11
-1 2 5
-5 2 6
-1 3 8
-8 1 11
-1 1 6
-10 1 6
-11 3 6
-10 4 8
-10 1 11
+  9 1 11
+  1 2  5
+  5 2  6
+  1 3  8
+  8 1 11
+  1 1  6
+ 10 1  6
+ 11 3  6
+ 10 4  8
+ 10 1 11
 
 ### Sample output 1
 
-YES
-3
+ YES
+ 3
 
 ### Sample input 2
 
-9 1 2
-1 2 5
-5 2 6
-1 3 8
-8 1 11
-1 1 6
-10 1 6
-11 3 6
-10 4 8
-10 1 11
+  9 1  2
+  1 2  5
+  5 2  6
+  1 3  8
+  8 1 11
+  1 1  6
+ 10 1  6
+ 11 3  6
+ 10 4  8
+ 10 1 11
 
 ### Sample output 2
 
-NO
+ NO
